@@ -1,0 +1,36 @@
+{
+  "source": {
+    "platform": "bunjang",
+    "shopId": "82455502",
+    "url": "https://m.bunjang.co.kr/products/manage?tab=ALL&size=100&page=0",
+    "shopUrl": "https://m.bunjang.co.kr/shops/82455502/products"
+  },
+  "target": {
+    "platform": "joongna",
+    "url": "https://web.joongna.com/mystore"
+  },
+  "collect": {
+    "pageSize": 100,
+    "maxPages": 20
+  },
+  "joongna": {
+    "condition": "used",
+    "components": "none",
+    "freeShipping": true
+  },
+  "categoryMap": {
+    "700500": "스포츠 > 인라인/스케이트/전동 > 스케이트보드용품",
+    "700350900": "스포츠 > 인라인/스케이트/전동 > 인라인/스케이트용품",
+    "320210400": "패션의류 > 남성의류 > 셔츠/남방",
+    "320300400": "패션의류 > 남성의류 > 자켓/코트",
+    "320300200": "패션의류 > 남성의류 > 패딩/야상/점퍼",
+    "320500100": "패션의류 > 남성의류 > 정장",
+    "400080200": "패션잡화 > 선글라스/안경 > 안경/안경테"
+  },
+  "sync": {
+    "title": true,
+    "price": true,
+    "description": true,
+    "hideSource": true
+  }
+}

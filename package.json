@@ -1,0 +1,26 @@
+{
+  "name": "secondhand-sync",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "번개장터 기준 중고거래 게시글 동기화",
+  "scripts": {
+    "browser": "node src/browser.ts",
+    "collect": "node src/collect.ts",
+    "plan": "node src/plan.ts",
+    "link": "node src/link.ts",
+    "apply": "node src/apply.ts",
+    "whoami": "node src/whoami.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "playwright": "^1.58.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
